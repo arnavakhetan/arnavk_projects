@@ -1,3 +1,3 @@
-Private Repository for my Projects
+### My Projects
 
-Based on Python, R & SQL Programming Languages
+## Based on Python, R & SQL Programming Languages
