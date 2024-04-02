@@ -1,4 +1,6 @@
-n = int(input("Enter a positive integer: "))
+while True:
+  n = int(input("Enter a positive integer: "))
+  
 factorial = 1
 statement = f"{n}! ="
 
