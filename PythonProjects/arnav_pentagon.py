@@ -1,7 +1,3 @@
-# Arnav Khetan
-# Section B
-# Problem 1B: Spiral Pentagon
-
 import turtle 
 
 
