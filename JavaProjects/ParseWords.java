@@ -1,7 +1,5 @@
 // The program prints BLANK for every colon on its own output line.
 // All types of characters (besides spaces) will be treated as one output line until separated by colon(s).
-// Filename: ParseWords.java
-// Author: Arnav Khetan
 class ParseWords {
     public static void main(String[] args) {
         String Args = args[0];  // Getting the command line input
