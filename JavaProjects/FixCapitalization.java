@@ -1,8 +1,6 @@
 // This program will fix the capitalization of sentences such that only the first letter of a sentence is capitalized.
 // It will abide by the punctuation and ./!/? symbols will be treated as the end of a sentence.
 // It will also abide by the extra spaces given in the program and not remove them.
-// Filename: Fix Capitalization.java
-// Author: Arnav Khetan
 class FixCapitalization {
 	public static void main(String[] args) {
 		String Args = args[0];
