@@ -2,8 +2,6 @@
 // Americanize prints out the word and WordConvert converts the word.
 // Converts all instances of "tea" to "coffee" while only processing the full proper words.
 // It will maintain the proper punctuation, capitalization and spaces given in the input.
-// Filename: Americanize.java
-// Author: Arnav Khetan
 class Americanize {
 	public static void main(String[] args) {
 		String Args = args[0]; // Getting the command line input
