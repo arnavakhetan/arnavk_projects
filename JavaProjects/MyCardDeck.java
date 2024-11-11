@@ -6,7 +6,6 @@
 // Card represents an individual card and handles the part of how the card should be registered and printed out.
 // Deck represents the entire 52 card deck and how it should be randomly shuffled and printed out.
 // MyCardDeck has the main method and actually prints out the outputs from Card/Deck
-// Author: Arnav Khetan
 
 import java.util.Random; // Importing the random package which will be used in the shuffle() method
 
