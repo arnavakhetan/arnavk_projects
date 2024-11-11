@@ -1,7 +1,5 @@
 // This program takes in your input through the Scanner class (while only accepting 8lines worth of code).
 // It then prints out each line as its entered and each word is printed out separately in its own line.
-// Filename: EightLines.java
-// Author: Arnav Khetan
 import java.util.Scanner; // Import the Scanner class for taking in the input
 class EightLines {
 	public static void main(String[] args) {
