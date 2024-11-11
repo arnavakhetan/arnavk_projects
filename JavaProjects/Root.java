@@ -26,7 +26,7 @@ class Root {
 				high = avg;
 			} else if ((avg * avg) < Args) { // If lower
 				low = avg;
-			} else { // Not specified by the question but needed in order to avoid an infinite loop when perfect square numbers are entered
+			} else { 
 				break;
 			}
 		}	
