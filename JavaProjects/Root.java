@@ -9,7 +9,7 @@ class Root {
 			return;
 		}
 		
-		double Args = Double.parseDouble(args[0]); // I found this method from here: https://stackoverflow.com/questions/6426491/parsing-string-to-double/6426531
+		double Args = Double.parseDouble(args[0]); 
 		// Converting the input from a string into a double
 		if (Args < 0){ // Error to check if a negative number is entered
 			System.err.println("ERROR");
