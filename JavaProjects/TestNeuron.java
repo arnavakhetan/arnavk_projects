@@ -8,7 +8,6 @@
 // The error value is the difference between the expected output and the output of the neuron. 
 // The number of iterations for both the train() and output() method is the same - 10000.
 // This program only has one class: TestNeuron
-// Author: Arnav Khetan
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
