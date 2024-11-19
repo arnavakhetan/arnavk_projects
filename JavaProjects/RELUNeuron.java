@@ -4,7 +4,6 @@
 // The program alters the weights and bias using a combination of inputs, error and learningRate.
 // These new weights are written to a file called weights.dbl to save them for testing.
 // This program only has one class: RELUNeuron
-// Author: Arnav Khetan
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
