@@ -1,5 +1,4 @@
 // Plagiarism.java 
-// This version is fixed!
 // Author: Arnav Khetan
 
 class WordCounter {
@@ -37,8 +36,6 @@ class WordCounter {
  */
 public class Plagiarism {
 
-	// Do all work in the main() method.
-	// In the future, should move most functions to a separate class.
 	static public void main(String[] args) {
 		// Input is expected in args[0]. Make sure input exists.
 		if (args.length < 1) { return; }
