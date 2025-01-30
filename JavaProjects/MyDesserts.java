@@ -2,7 +2,7 @@
 // It has 5 classes: Dessert, IceCream, Cake, Pudding, MyDesserts.
 // Dessert is the abstract class and contains the abstract class definitions of the 3 methods that will be used in this program: ingredients, name, where.
 // IceCream, Cake, and Pudding are the child classes of Dessert.
-// MyDesserts is the class with the main method in it.
+// This program is an example of Object-Oriented Programming.
 
 // Parent Dessert class
 abstract class Dessert {
