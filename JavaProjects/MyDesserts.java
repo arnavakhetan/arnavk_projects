@@ -3,7 +3,6 @@
 // Dessert is the abstract class and contains the abstract class definitions of the 3 methods that will be used in this program: ingredients, name, where.
 // IceCream, Cake, and Pudding are the child classes of Dessert.
 // MyDesserts is the class with the main method in it.
-// Author: Arnav Khetan
 
 // Parent Dessert class
 abstract class Dessert {
