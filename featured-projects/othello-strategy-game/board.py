@@ -70,7 +70,7 @@ class Board:
         while row_index < self.SIZE:
             col_index = 0
             while col_index < self.SIZE:
-                if self.grid[row_index][col_index] == token: # Written with LLM's help.
+                if self.grid[row_index][col_index] == token: 
                     return True
                 col_index += 1
             row_index += 1
@@ -185,7 +185,7 @@ class Board:
         while row_index < self.SIZE:
             col_index = 0
             while col_index < self.SIZE:
-                if self.is_legal_placement(row_index, col_index, token): # Written with LLM's help. 
+                if self.is_legal_placement(row_index, col_index, token): 
                     moves.append(move_class(row_index, col_index, "reverse"))
                     moves.append(move_class(row_index, col_index, "remove"))
                 col_index += 1
@@ -314,7 +314,7 @@ class Board:
             header += chr(ord("A") + col_index) + " "
             col_index += 1
 
-        lines = [header.rstrip()] # Written with LLM's help.
+        lines = [header.rstrip()] 
 
         row_index = 0
         while row_index < self.SIZE:
