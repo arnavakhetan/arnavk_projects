@@ -12,7 +12,7 @@ class SimpleRNG:
 
     def next_int(self, limit):
         """Return a pseudo-random integer from 0 to limit - 1."""
-        self.seed = (1103515245 * self.seed + 12345) % 2147483648 # Written with LLM's help
+        self.seed = (1103515245 * self.seed + 12345) % 2147483648 
         return self.seed % limit
 
 
@@ -40,7 +40,7 @@ class RandomPlayer(Player):
     def choose_move(self, board):
         """Choose a pseudo-random legal move."""
         legal_moves = board.get_legal_moves(self.token, Move)
-        index = self.rng.next_int(len(legal_moves)) # Written with LLM's help.
+        index = self.rng.next_int(len(legal_moves)) 
         return legal_moves[index]
 
     def get_name(self):
@@ -70,7 +70,7 @@ class HeuristicPlayer(Player):
                 next_board.apply_move(move, self.token)
                 score = next_board.evaluate_for(self.token)
 
-                if move.mode == "reverse": # Written with LLM's help.
+                if move.mode == "reverse": 
                     score += 1 # The heuristic player has a reverse bias. If it deems that reverse and remove are equally good in any position, it will choose reverse
                                 # This is done to help the heuristic come to a decision (without making it too complicated) and avoid infinite games (when Heuristic vs Minimax)
                 if best_score is None or score > best_score:
@@ -103,7 +103,7 @@ class MinimaxPlayer(Player):
 
         best_move = legal_moves[0]
         best_score = None
-        alpha = None # Written with LLM's help.
+        alpha = None 
         beta = None
         index = 0
 
@@ -164,7 +164,7 @@ class MinimaxPlayer(Player):
                 next_board.apply_move(move, current_token)
 
                 if move.is_pass:
-                    next_passes = consecutive_passes + 1 # Written with LLM's help.
+                    next_passes = consecutive_passes + 1 
                 else:
                     next_passes = 0
 
