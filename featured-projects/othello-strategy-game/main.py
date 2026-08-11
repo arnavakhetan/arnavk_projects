@@ -14,7 +14,7 @@ def create_player(player_type, token):
     if player_type == "Heuristic":
         return HeuristicPlayer(token)
     if player_type == "Minimax":
-        return MinimaxPlayer(token, 2) # Took depth from this conversation: https://edstem.org/us/courses/95003/discussion/7772205
+        return MinimaxPlayer(token, 2) 
 
     raise ValueError("Unknown player type: " + str(player_type)) # This error will mostly never trigger in this code.
 
@@ -78,7 +78,7 @@ def print_results_table(results_list):
     """Print the final results table."""
     print(
         "Player A".ljust(12) +
-        "Player A Win Ratio".ljust(22) + # Written with LLM's help. Wasn't sure about the spacing.
+        "Player A Win Ratio".ljust(22) + 
         "Player B".ljust(12) +
         "Player B Win Ratio".ljust(22) +
         "Ties"
