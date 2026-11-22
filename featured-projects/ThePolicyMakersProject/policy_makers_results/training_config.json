@@ -1,0 +1,26 @@
+{
+    "agent_seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+    ],
+    "checkpoints": [
+        100,
+        200,
+        400,
+        800
+    ],
+    "total_episodes": 800,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "batch_size": 64,
+    "memory_capacity": 20000,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.99,
+    "target_update_steps": 1000,
+    "reward_scale": 100.0,
+    "max_steps_per_episode": 5000
+}
